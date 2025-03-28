@@ -5,7 +5,7 @@ build:
   tools:
     python: "3.11"
   jobs:
-    pre_checkout:
+    pre_build:
       - sleep 30
 
 python:
