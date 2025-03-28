@@ -4,9 +4,9 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
-  # jobs:
-  #   pre_checkout:
-  #     - git fetch --unshallow || true
+  jobs:
+    pre_checkout:
+      - sleep 30
 
 python:
     install:
